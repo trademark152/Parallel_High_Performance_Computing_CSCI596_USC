@@ -1,0 +1,21 @@
+Folder cs596-viz contains data and code for hands-on experience in essential skills of
+scientific visualization. You will use your laptop for these do-it-yourself projects.
+
+atomv.c, atomv.h, md.conf: OepnGL program, header and input-data files for static
+  visualization explained in the lecture on "Visualizing molecular dynamics".
+md.c, md.h, md.in: C program, header and input-parameter files for serial
+  molecular dynamics (MD) simulation; to be combined with atom.c for animating
+  MD simulations, following slides 15 & 16 of
+  http://cacs.usc.edu/education/cs596/VizMD.pdf and pages 14 & 15 of
+  http://cacs.usc.edu/education/cs596/06Visual.pdf.
+
+lmd.xyz: XYZ file for molecular dynamics trajectory simulated by lmd.c; used VMD
+  animation of MD simulations in the lecture on "VMD & OVITO visualization of molecular dynamics".
+
+userb.tcl: Tcl script for VMD animation of biological electron transfer
+  in the lecture on "VMD & OVITO visualization of molecular dynamics".
+
+complex16.pdb, FeOcc.pdb: PDB files for the biological electron-transfer animation.
+
+MoSe2-hole.cube: Gaussian-cube for photo-excited electron and hole in MoSe2
+  in the lecture on "VMD & OVITO visualization of molecular dynamics".

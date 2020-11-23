@@ -1,0 +1,14 @@
+This folder (csci596-as05) contains instruction and codes needed to complete assignment 5
+for CSCI 596.
+
+as05.pdf: Assignment.
+
+pmd.c, pmd.h, pmd.in: MPI program, header file, and input parameter file for parallel
+molecular dynamics (MD) as a potential starting point. However, you are encouraged
+instead to use your pmd_irecv.c from assignment 4.
+
+hmd.sl: Slurm script for part I: program verification.
+
+hmd-scale.sl: Slurm script for part II: scalability test. It assumes that executables
+named hmd1, hmd2, hmd4 and hmd8 have been compiled for 1, 2 4 and 8-threads, 
+respectively.

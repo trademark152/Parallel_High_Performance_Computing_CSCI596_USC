@@ -1,0 +1,19 @@
+This folder (csci596-as01) contains instruction and codes needed to complete assignment 1
+for CSCI 596.
+
+as01.pdf: Assignment itself.
+
+MDtime.out: Measured running time (right column) as a function of the number of atoms (left column)
+of a simple molecular-dynamics (MD) program, md.c.
+
+lmd_sqrt_flop.[c|h|in]: C source code|header file|input file for linked-list-cell molecular
+dynamics program, with polynomial implementation of sqrt() function. To compile the
+program, type
+  cc -O -o lmd_sqrt_flop lmd_sqrt_flop.c -lm
+which will creata an executable named lmd_sqrt_flop. To run the executable, type
+  ./lmd_sqrt_flop < lmd_sqrt_flop.in
+Note "." denotes the current directory, thus ./lmd_sqrt_flop is the absolute path to the
+executable, lmd_sqrt_flop. "<" directs the contents of lmd_sqrt_flop.in into the standard
+output of the lmd_sqrt_flop program. On Discovery cluster, the C compiler is "gcc"
+instead of "cc" in the above example. The running time, along with measured flop/s performance, 
+will be reported in the standard output of the program.

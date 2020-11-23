@@ -1,0 +1,15 @@
+This folder (csci596-as06) contains instruction and codes needed to complete assignment 6
+for CSCI 596.
+
+as06.pdf: Assignment.
+
+pdf0.c: Sequential pair distribution function (PDF) computation program to be used in part I.
+
+pos.d: Atomic configuration data for which PDF will be computed in Part I.
+
+pdf.sl: Slurm script for part I.
+
+hypi_setdevice.cu: Double-decker MPI+CUDA program to serve as a basis of your triple-decker
+MPI+OpenMP+CUDA program, pi3.cu.
+
+pi3.sl: Slurm script for part II.

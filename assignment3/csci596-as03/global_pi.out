@@ -1,0 +1,20 @@
+##### Strong scaling #####
+Number of processors: 4
+Value of Pi = 3.141593e+00
+Execution time (s) = 7.388533e-02
+Number of processors: 2
+Value of Pi = 3.141593e+00
+Execution time (s) = 9.095174e-02
+Number of processors: 1
+Value of Pi = 3.141593e+00
+Execution time (s) = 9.122373e-02
+##### Weak scaling   #####
+Number of processors: 4
+Value of Pi = 3.141593e+00
+Execution time (s) = 1.385848e-01
+Number of processors: 2
+Value of Pi = 3.141593e+00
+Execution time (s) = 1.264746e-01
+Number of processors: 1
+Value of Pi = 3.141593e+00
+Execution time (s) = 8.671311e-02

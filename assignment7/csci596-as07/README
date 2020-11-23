@@ -1,0 +1,16 @@
+Folder cs596-as07 contains codes for assignment 7 on OpenMP target offload
+and data parallel C++ (DPC++) programming for GPUs.
+
+
+omp_target_pi.c: Computation of Pi using OpenMP target offload; base program for part 1.
+  How to compile and run on DevCloud (https://devcloud.intel.com/oneapi):
+  cc -o omp_target_pi omp_target_pi.c -fopenmp
+  qsub -I -l nodes=1:gpu:ppn=2
+  ./omp_target_pi
+
+
+pi.cpp: Computation of pi using DPC++ for part 2.
+  How to compile and run on DevCloud:
+  dpcpp -o pi pi.cpp
+  qsub -I -l nodes=1:gpu:ppn=2
+  ./pi

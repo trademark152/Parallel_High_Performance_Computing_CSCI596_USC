@@ -1,0 +1,5 @@
+myid = 1; mpid = 1: device used = 1; partial pi = 0.567582
+myid = 1; mpid = 0: device used = 0; partial pi = 0.719409
+myid = 0; mpid = 1: device used = 1; partial pi = 0.874671
+myid = 0; mpid = 0: device used = 0; partial pi = 0.979926
+PI = 3.141588

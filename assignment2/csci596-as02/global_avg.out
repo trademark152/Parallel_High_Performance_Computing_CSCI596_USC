@@ -1,0 +1,18 @@
+Node 0 has partial value 0.000000e+00
+Node 1 has partial value 1.000000e+00
+Node 3 has partial value 3.000000e+00
+Node 2 has partial value 2.000000e+00
+Node 5 has partial value 5.000000e+00
+Node 4 has partial value 4.000000e+00
+Node 6 has partial value 6.000000e+00
+Node 7 has partial value 7.000000e+00
+Global average = 3.500000e+00
+Global sum = 2.800000e+01
+Execution time (s) = 4.233542e-02
+Node 0 has partial value 0.000000e+00
+Node 2 has partial value 2.000000e+00
+Node 3 has partial value 3.000000e+00
+Node 1 has partial value 1.000000e+00
+Global average = 1.500000e+00
+Global sum = 6.000000e+00
+Execution time (s) = 2.454970e-04

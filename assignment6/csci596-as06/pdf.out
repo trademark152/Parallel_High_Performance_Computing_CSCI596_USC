@@ -1,0 +1,4 @@
+##### CPU: gcc -o pdf0 pdf0.c -lm #####
+Execution time (s) = 5.980000e+00
+##### GPU: nvcc -o pdf pdf.cu     #####
+Execution time (s) = 1.050000e+00

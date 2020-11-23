@@ -1,0 +1,19 @@
+This folder (csci596-as04) contains instruction and codes needed to complete assignment 4
+for CSCI 596.
+
+as04.pdf: Assignment.
+
+pmd.c, pmd.h, pmd.in: MPI program, header file, and input parameter file for parallel
+molecular dynamics (MD); note that the header and parameters are preset for part I --
+for part II, you need to modify them according to the description in as04.pdf.
+To compile pmd.c, type:
+mpicc -O -o pmd pmd.c -lm
+
+pmd_irecv.sl: Slurm script for part I. It compares the runtime of the original pmd.c and
+its asynchronous-message version, pmd_irecv.c, written by you. The script repeats
+the comparison for three times, so that you can compute the average runtime.
+
+cal_pv.c: Data structures and function for calculating probability density of velocity;
+its contents need be merged into your program, pmd_split.c, for part II.
+
+pmd_split.sl: Slurm script for part II.

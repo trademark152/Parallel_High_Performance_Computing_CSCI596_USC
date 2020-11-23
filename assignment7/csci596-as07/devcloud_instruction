@@ -1,0 +1,13 @@
+On Cygwin runs:
+# set up ssh connections
+bash C:/Users/trade/Downloads/setup-devcloud-access-51841.txt
+
+# Clean up for security:
+rm C:/Users/trade/Downloads/setup-devcloud-access-51841.txt
+
+# after connecting
+ssh devcloud
+
+# go to local drive C:/Tuan Minh/USC coursework/Fall2020/CSCI596/assignment/assignment7
+(careful with the spaces) -> easier to avoid folder path with spaces
+scp -r csci596-as07 devcloud:home/u51841/project_mt/

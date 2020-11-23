@@ -1,0 +1,12 @@
+##### Strong scaling #####
+Number of processors: 4
+Value of Pi = 3.141593e+00
+Execution time (s) = 4.480942e-01
+Number of processors: 2
+Value of Pi = 3.141593e+00
+Execution time (s) = 8.508306e-01
+Number of processors: 1
+Value of Pi = 3.141593e+00
+Execution time (s) = 1.430206e+00
+##### Weak scaling   #####
+slurmstepd: error: *** JOB 296954 ON d18-19 CANCELLED AT 2020-10-01T01:29:31 DUE TO TIME LIMIT ***

@@ -1,0 +1,9 @@
+On Cygwin runs:
+# set up ssh connections
+bash C:/Users/trade/Downloads/setup-devcloud-access-51841.txt
+
+# Clean up for security:
+rm C:/Users/trade/Downloads/setup-devcloud-access-51841.txt
+
+# after connecting
+ssh devcloud
